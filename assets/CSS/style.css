@@ -156,7 +156,7 @@ header {
     width: 100%;
     margin: 0%;
 }
-#about, #Portfolio, #Contact {
+#about, #portfolio, #contact {
     Float: left;
     background-color: #ffffff ;
     margin: 5px;
