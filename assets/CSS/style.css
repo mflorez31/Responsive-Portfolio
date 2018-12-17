@@ -1,0 +1,133 @@
+body {
+    background-color: #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    margin: 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+} 
+
+Div.Top {
+    background-color: #ffffff;
+    width: 100%;
+    height: 78px;
+    min-width: 1000px;
+}    
+
+header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left; 
+    margin-left: 325px;
+    margin-right: 100px;  
+    width: 285px;
+    text-align: center;
+    height: 78px;
+    font-size: 18px;
+    text-align: center;
+    clear: right;
+}    
+
+Div.Mid {
+    float: left;
+    height: auto;
+    margin: 30px 325px 90px 325px;
+    background-color: #ffffff;
+    min-width: 700px;
+    width: 700px;
+}    
+
+h2 { 
+    color: #4aaaa5;
+    font-size: 28px;
+    margin: 20px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom: 2px solid #b1b1b1;
+    display: block;
+}
+
+#Main-Paragraph {
+    float: left;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#second-para {
+    float: left;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Image {
+    float: left;
+    width: 200px;
+    margin: 15px;
+}
+
+a{
+    color: #777777;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #777777;
+    color: #b1b1b1;
+    margin-top: 25px;
+    padding-top: 30px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 7px;
+    position: absolute;
+} 
+
+#about {
+    padding: 5px;
+    margin: 20px 0px 15px 5px;
+    float: right;
+ }    
+ 
+ #Portfolio {
+    padding: 0px 9px 0px 9px;
+    float: right;  
+    margin: 25px 5px 30px 5px;
+    border-left-color: #b1b1b1;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #b1b1b1;
+    border-right-style: solid;
+    border-right-width: 1px;          
+}
+
+#Contact {
+    padding: 5px;
+    margin: 20px 150px 15px 0px;
+    float: right;
+}
+
+div.survey {
+    float: left;
+    width: 75%;
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
