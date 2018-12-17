@@ -38,7 +38,6 @@ Div.Mid {
     height: auto;
     margin: 30px 20% 90px 20%;
     background-color: #ffffff;
-    min-width: 700px;
     width: 700px;
 }    
 
@@ -88,8 +87,16 @@ a{
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 7px;
-    position: absolute;
+    position: fixed;
 } 
+
+div.pics {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding: 6px;
+}
 
 #about {
     padding: 5px;
@@ -111,7 +118,7 @@ a{
 
 #Contact {
     padding: 5px;
-    margin: 20px 150px 15px 0px;
+    margin: 20px 5% 15px 0px;
     float: right;
 }
 
@@ -135,14 +142,29 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+header {
+    margin-left: 5%;
+}
 Div.Mid {
-    width: 650px;
+    width: 85%;
     margin: 5%;
 }
-
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
+header {
+    width: 100%;
+    margin: 0%;
+}
+#about, #Portfolio, #Contact {
+    Float: left;
+    background-color: #ffffff ;
+    margin: 5px;
+    padding: 5px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
 
+}
 
 }
